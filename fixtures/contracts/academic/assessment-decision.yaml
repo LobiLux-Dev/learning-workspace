@@ -1,0 +1,7 @@
+schema_version: '1.0'
+decision_uid: '01a1720b-2b6c-7fd0-ac0d-1c86561fd4a2'
+assessment_uid: '01a1720b-2b6c-7772-8191-8fac0a082446'
+decision: 'accepted'
+reason: 'Revisado por la persona usuaria en la sesión de evaluación.'
+actor: 'local-user'
+event_seq: 45

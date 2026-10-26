@@ -1,0 +1,10 @@
+schema_version: '1.0'
+assets:
+  - id: 'circuit-01'
+    path: 'assets/circuit-01.png'
+    media_type: 'image/png'
+    origin: 'author-provided'
+    license: 'CC-BY-4.0'
+    attribution: 'Academy A'
+    sha256: '3f5a51d5137861751caaa121b6bf134d7857ecc794341160f1b7ca0df4772b51'
+extensions: {}

@@ -1,0 +1,8 @@
+{
+  "name": "@learning-workspace/cli",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "bin": { "learn": "./dist/index.js" },
+  "dependencies": { "@learning-workspace/core": "0.1.0", "@learning-workspace/schemas": "0.1.0" }
+}

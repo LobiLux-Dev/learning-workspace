@@ -1,0 +1,6 @@
+idempotencyKey: '01a1720b-2b6e-7520-bde0-05020143a806'
+input:
+  source:
+    type: git
+    url: 'https://example.org/academy/electronics.git'
+    commit: '0123456789abcdef0123456789abcdef01234567'

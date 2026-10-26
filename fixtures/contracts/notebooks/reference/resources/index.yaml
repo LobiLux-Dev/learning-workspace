@@ -1,0 +1,7 @@
+schema_version: '1.0'
+resources:
+  - id: 'index'
+    path: 'index.md'
+    media_type: 'text/markdown'
+    title: 'Índice'
+extensions: {}

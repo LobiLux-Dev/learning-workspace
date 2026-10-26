@@ -1,0 +1,24 @@
+{
+  "ids": {
+    "electronicsUid": "01a1720b-2b6c-7f36-8963-5d574f4160b9",
+    "referenceUid": "01a1720b-2b6c-7a54-be70-7f87b8a3598e",
+    "learnerUid": "01a1720b-2b6c-7bb8-a69d-632b2542c97e",
+    "enrollmentUid": "01a1720b-2b6c-79fe-b430-9c83a24af81b",
+    "releaseUid": "01a1720b-2b6c-7224-bf32-35cd404e834e",
+    "assignmentUid": "01a1720b-2b6c-7cef-b0d9-231b53e6a39c",
+    "materialUid": "01a1720b-2b6c-7040-a81f-037654968415",
+    "artifactUid": "01a1720b-2b6c-7de9-9682-913bc3aa54af",
+    "sessionUid": "01a1720b-2b6c-792a-8881-898496765c2f",
+    "attemptUid": "01a1720b-2b6c-7aa3-aa15-4cd198d0472c",
+    "assessmentUid": "01a1720b-2b6c-7772-8191-8fac0a082446",
+    "decisionUid": "01a1720b-2b6c-7fd0-ac0d-1c86561fd4a2",
+    "itemUid": "01a1720b-2b6d-713c-aae8-247f5875a127",
+    "operationUid": "01a1720b-2b6d-76e4-8cd0-4abbdeccc7ae",
+    "sourceReleaseUid": "01a1720b-2b6d-7ad4-b21c-4dbc24d4dd6f"
+  },
+  "pngBytes": 151,
+  "answerDigest": "246c36a27aa7c38297426e7b2c1922ed9fd35de11764d47fa91ec09cc2662fa9",
+  "ohmsDigest": "3ff5779eda7910b97932df2cf479fd9a240837975363604556afb6e1b24945fd",
+  "overviewDigest": "04ea464cdfdff2329e426fae1fa6058ce1a488ce463196e8a72d1660138397cb",
+  "pngDigest": "3f5a51d5137861751caaa121b6bf134d7857ecc794341160f1b7ca0df4772b51"
+}

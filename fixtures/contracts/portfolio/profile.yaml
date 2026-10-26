@@ -1,0 +1,6 @@
+schema_version: '1.0'
+learner_uid: '01a1720b-2b6c-7bb8-a69d-632b2542c97e'
+preferred_instruction_language: 'es-MX'
+preferences:
+  explanation_detail: 'adaptive'
+  preferred_session_minutes: 25

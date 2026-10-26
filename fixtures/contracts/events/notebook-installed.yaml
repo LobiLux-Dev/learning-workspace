@@ -1,0 +1,18 @@
+schema_version: '1.0'
+event_uid: '01a1720b-2b6e-7ecd-89bb-a4efacb1fbeb'
+event_seq: 7
+aggregate_type: 'notebook-release'
+aggregate_uid: '01a1720b-2b6c-7224-bf32-35cd404e834e'
+aggregate_revision: 2
+type: 'NotebookInstalled'
+payload:
+  release_id: '01a1720b-2b6c-7224-bf32-35cd404e834e'
+  package_uid: '01a1720b-2b6c-7f36-8963-5d574f4160b9'
+  package_id: 'github.com/academy-a/electronics-fundamentals'
+  version: '1.0.0'
+  content_digest: '28d6b6df0a3074f8957f81ba017c0db4caadefe902e5ac665263e63db95e0e60'
+  operation_uid: '01a1720b-2b6d-76e4-8cd0-4abbdeccc7ae'
+actor: 'local-user'
+operation_uid: '01a1720b-2b6d-76e4-8cd0-4abbdeccc7ae'
+occurred_at: '2026-10-25T12:00:00.000Z'
+recorded_at: '2026-10-25T12:00:00.000Z'

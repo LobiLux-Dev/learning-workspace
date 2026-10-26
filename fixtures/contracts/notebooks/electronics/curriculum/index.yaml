@@ -1,0 +1,17 @@
+schema_version: '1.0'
+modules:
+  - id: 'dc-basics'
+    title: 'Circuitos de corriente continua'
+    resource_ids: ['ohms-law']
+    skill_ids: ['understand-voltage', 'understand-resistance', 'apply-ohms-law']
+skills:
+  - id: 'understand-voltage'
+    description: 'Interpretar diferencia de potencial'
+    prerequisites: []
+  - id: 'understand-resistance'
+    description: 'Interpretar resistencia eléctrica'
+    prerequisites: []
+  - id: 'apply-ohms-law'
+    description: 'Resolver relaciones entre V, I y R'
+    prerequisites: ['understand-voltage', 'understand-resistance']
+extensions: {}

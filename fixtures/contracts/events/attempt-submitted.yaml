@@ -1,0 +1,20 @@
+schema_version: '1.0'
+event_uid: '01a1720b-2b6e-7d17-a882-2774b0dbd403'
+event_seq: 43
+aggregate_type: 'attempt'
+aggregate_uid: '01a1720b-2b6c-7aa3-aa15-4cd198d0472c'
+aggregate_revision: 1
+type: 'AttemptSubmitted'
+payload:
+  attempt_uid: '01a1720b-2b6c-7aa3-aa15-4cd198d0472c'
+  session_uid: '01a1720b-2b6c-792a-8881-898496765c2f'
+  enrollment_uid: '01a1720b-2b6c-79fe-b430-9c83a24af81b'
+  release_id: '01a1720b-2b6c-7224-bf32-35cd404e834e'
+  item_uid: '01a1720b-2b6d-713c-aae8-247f5875a127'
+  hints_used: 1
+  served_hint_count: 1
+  declared_external_hints: 0
+actor: 'local-user'
+operation_uid: '01a1720b-2b6d-76e4-8cd0-4abbdeccc7ae'
+occurred_at: '2026-10-25T12:05:30.250Z'
+recorded_at: '2026-10-25T12:05:30.250Z'

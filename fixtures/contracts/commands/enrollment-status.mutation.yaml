@@ -1,0 +1,6 @@
+idempotencyKey: '01a1720b-2b6e-7f75-a2ec-3c3f3f2a6de8'
+expectedRevisions:
+  '01a1720b-2b6c-79fe-b430-9c83a24af81b': 3
+input:
+  enrollmentUid: '01a1720b-2b6c-79fe-b430-9c83a24af81b'
+  targetStatus: 'paused'

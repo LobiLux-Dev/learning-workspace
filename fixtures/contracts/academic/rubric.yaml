@@ -1,0 +1,20 @@
+schema_version: '1.0'
+rubric_id: 'ohm-item'
+version: '1.0.0'
+criteria:
+  - id: 'relation'
+    description: 'Selecciona y despeja correctamente la relación V = I·R'
+    max_points: 2
+    anchors:
+      - {points: 0, description: 'Relación incorrecta o ausente'}
+      - {points: 1, description: 'Relación correcta sin despeje correcto'}
+      - {points: 2, description: 'Relación y despeje correctos'}
+    skill_weights: {'apply-ohms-law': 1}
+  - id: 'result'
+    description: 'Calcula valor y unidad conforme al resultado esperado del ítem'
+    max_points: 2
+    anchors:
+      - {points: 0, description: 'Resultado incorrecto sin procedimiento válido'}
+      - {points: 1, description: 'Procedimiento correcto con error de cálculo o unidad'}
+      - {points: 2, description: 'Valor dentro de tolerancia y unidad correctos'}
+    skill_weights: {'apply-ohms-law': 1}

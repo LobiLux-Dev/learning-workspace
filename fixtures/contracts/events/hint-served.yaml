@@ -1,0 +1,22 @@
+schema_version: '1.0'
+event_uid: '01a1720b-2b6e-77c5-b47a-ae4fb1526832'
+event_seq: 42
+aggregate_type: 'item'
+aggregate_uid: '01a1720b-2b6d-713c-aae8-247f5875a127'
+aggregate_revision: 1
+type: 'HintServed'
+payload:
+  enrollment_uid: '01a1720b-2b6c-79fe-b430-9c83a24af81b'
+  release_id: '01a1720b-2b6c-7224-bf32-35cd404e834e'
+  session_uid: '01a1720b-2b6c-792a-8881-898496765c2f'
+  item_uid: '01a1720b-2b6d-713c-aae8-247f5875a127'
+  ordinal: 1
+  hint_snapshot: 'Recuerda que el voltaje es el producto de corriente por resistencia.'
+  provenance:
+    origin: 'ai-generated'
+    provider_ref: 'local:mock'
+    model_ref: 'mock-1'
+actor: 'agent:tutor'
+operation_uid: '01a1720b-2b6d-76e4-8cd0-4abbdeccc7ae'
+occurred_at: '2026-10-25T12:00:00.000Z'
+recorded_at: '2026-10-25T12:00:00.000Z'

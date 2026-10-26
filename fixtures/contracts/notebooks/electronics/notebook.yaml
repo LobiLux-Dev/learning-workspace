@@ -1,0 +1,24 @@
+schema_version: '1.0'
+identity:
+  package_uid: '01a1720b-2b6c-7f36-8963-5d574f4160b9'
+  package_id: 'github.com/academy-a/electronics-fundamentals'
+  name: 'Electronics Fundamentals'
+release:
+  version: '1.0.0'
+metadata:
+  description: 'Fundamentos de circuitos (fixture sintético para pruebas)'
+  authors:
+    - {name: 'Academy A'}
+  license: 'CC-BY-4.0'
+  tags: [electronics, fundamentals]
+content:
+  entrypoint_resource_id: 'overview'
+  resources_manifest: 'resources/index.yaml'
+  assets_manifest: 'assets/manifest.yaml'
+  curriculum_path: 'curriculum/index.yaml'
+capabilities:
+  curriculum: true
+  diagnostics: true
+  assessments: false
+  diagnostic_items_path: 'items/diagnostic.yaml'
+extensions: {}

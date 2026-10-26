@@ -1,0 +1,42 @@
+schema_version: '1.0'
+item_uid: '01a1720b-2b6d-713c-aae8-247f5875a127'
+enrollment_uid: '01a1720b-2b6c-79fe-b430-9c83a24af81b'
+release_id: '01a1720b-2b6c-7224-bf32-35cd404e834e'
+assignment_uid: '01a1720b-2b6c-7cef-b0d9-231b53e6a39c'
+skill_ids: ['apply-ohms-law']
+context_key: 'dc-basics-ohm-practice'
+statement: 'Una resistencia de 12 Ω recibe 0,5 A. ¿Qué voltaje hay en sus terminales?'
+source_refs:
+  - release_id: '01a1720b-2b6c-7224-bf32-35cd404e834e'
+    resource_id: 'ohms-law'
+    digest: '3ff5779eda7910b97932df2cf479fd9a240837975363604556afb6e1b24945fd'
+solution:
+  answer: '6 V'
+  units: ['V']
+  tolerance: {value: 0.01, kind: 'relative'}
+  expected_justification: 'Aplicar V = I · R con I = 0,5 A y R = 12 Ω.'
+rubric:
+  schema_version: '1.0'
+  rubric_id: 'ohm-item'
+  version: '1.0.0'
+  criteria:
+    - id: 'relation'
+      description: 'Selecciona y despeja correctamente la relación V = I·R'
+      max_points: 2
+      anchors:
+        - {points: 0, description: 'Relación incorrecta o ausente'}
+        - {points: 1, description: 'Relación correcta sin despeje correcto'}
+        - {points: 2, description: 'Relación y despeje correctos'}
+      skill_weights: {'apply-ohms-law': 1}
+    - id: 'result'
+      description: 'Calcula valor y unidad conforme al resultado esperado del ítem'
+      max_points: 2
+      anchors:
+        - {points: 0, description: 'Resultado incorrecto sin procedimiento válido'}
+        - {points: 1, description: 'Procedimiento correcto con error de cálculo o unidad'}
+        - {points: 2, description: 'Valor dentro de tolerancia y unidad correctos'}
+      skill_weights: {'apply-ohms-law': 1}
+
+provenance:
+  origin: 'author-provided'
+revision: 1

@@ -1,0 +1,20 @@
+schema_version: '1.0'
+assessment_uid: '01a1720b-2b6c-7772-8191-8fac0a082446'
+attempt_uid: '01a1720b-2b6c-7aa3-aa15-4cd198d0472c'
+supersedes_assessment_uid: null
+rubric_digest: 'a24bebee5a8f31c7d3be9ab3b7fc015e0f90a0eb2065285fe533c783093becf4'
+criteria_scores:
+  relation: 2
+  result: 1
+criteria_justifications:
+  relation:
+    text: 'La relación V = I·R se aplica y despeja correctamente.'
+    response_refs: ['answer_snapshot.value']
+  result:
+    text: 'El cálculo 0,5 · 12 es correcto; la unidad V es correcta.'
+    response_refs: ['answer_snapshot.value']
+feedback: 'Buen procedimiento; revisa el redondeo.'
+evaluator:
+  kind: 'human'
+confidence_in_evaluation: 0.9
+recorded_event_seq: 44

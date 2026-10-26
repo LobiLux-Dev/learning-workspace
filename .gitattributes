@@ -1,0 +1,4 @@
+# Fixture bytes are part of the snapshot digest contract, including CRLF and PNG.
+# Do not depend on a developer's global core.autocrlf setting.
+fixtures/** -text
+*.png binary

@@ -1,0 +1,7 @@
+# Datos totalmente ficticios; fixture dedicado al dominio público (CC0-1.0).
+schema_version: '1.0'
+learner_uid: '019a3dda-cc44-73c0-989a-2e14c65d13e1'
+preferred_instruction_language: 'es-MX'
+preferences:
+  explanation_detail: 'adaptive'
+  preferred_session_minutes: 25

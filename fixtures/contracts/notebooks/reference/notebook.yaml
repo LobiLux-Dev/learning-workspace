@@ -1,0 +1,22 @@
+schema_version: '1.0'
+identity:
+  package_uid: '01a1720b-2b6c-7a54-be70-7f87b8a3598e'
+  package_id: 'example.org/reference/notes-handbook'
+  name: 'Notes Handbook'
+release:
+  version: '2.0.0-rc.1'
+metadata:
+  description: 'Paquete de referencia sin currículo (AC16)'
+  authors:
+    - {name: 'Reference Authors'}
+  license: 'MIT'
+  tags: [reference]
+content:
+  entrypoint_resource_id: 'index'
+  resources_manifest: 'resources/index.yaml'
+capabilities:
+  curriculum: false
+  diagnostics: false
+  assessments: false
+extensions:
+  org.example:author-note: 'Fixture sintético sin idioma declarado'

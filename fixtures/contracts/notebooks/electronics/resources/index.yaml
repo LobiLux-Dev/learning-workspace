@@ -1,0 +1,13 @@
+schema_version: '1.0'
+resources:
+  - id: 'overview'
+    path: 'index.md'
+    media_type: 'text/markdown'
+    title: 'Introducción'
+  - id: 'ohms-law'
+    path: 'resources/ohms-law.md'
+    media_type: 'text/markdown'
+    title: 'Ley de Ohm'
+    language: 'es-MX'
+    license: 'CC-BY-4.0'
+extensions: {}

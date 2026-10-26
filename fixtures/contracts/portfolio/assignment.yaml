@@ -1,0 +1,11 @@
+schema_version: '1.0'
+assignment_uid: '01a1720b-2b6c-7cef-b0d9-231b53e6a39c'
+enrollment_uid: '01a1720b-2b6c-79fe-b430-9c83a24af81b'
+release_id: '01a1720b-2b6c-7224-bf32-35cd404e834e'
+source_resource_id: 'ohms-law'
+source_digest: '3ff5779eda7910b97932df2cf479fd9a240837975363604556afb6e1b24945fd'
+material_uid: '01a1720b-2b6c-7040-a81f-037654968415'
+objective_skill_ids: ['understand-voltage', 'understand-resistance', 'apply-ohms-law']
+status: 'assigned'
+supersedes_assignment_uid: null
+revision: 3

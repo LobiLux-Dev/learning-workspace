@@ -1,0 +1,5 @@
+defaults: &defaults
+  schema_version: '1.0'
+document:
+  <<: *defaults
+  extra: true

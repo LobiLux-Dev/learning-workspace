@@ -1,0 +1,24 @@
+schema_version: '1.0'
+artifact_uid: '01a1720b-2b6c-7de9-9682-913bc3aa54af'
+enrollment_uid: '01a1720b-2b6c-79fe-b430-9c83a24af81b'
+kind: 'material'
+mode: 'exact-copy'
+relative_path: 'enrollments/01a1720b-2b6c-79fe-b430-9c83a24af81b/materials/01a1720b-2b6c-7040-a81f-037654968415'
+inventory:
+  - path: 'resources/ohms-law.md'
+    size: 161
+    sha256: '3ff5779eda7910b97932df2cf479fd9a240837975363604556afb6e1b24945fd'
+  - path: 'assets/circuit-01.png'
+    size: 151
+    sha256: '3f5a51d5137861751caaa121b6bf134d7857ecc794341160f1b7ca0df4772b51'
+origin: 'copied-from-notebook'
+source_refs:
+  - release_id: '01a1720b-2b6c-7224-bf32-35cd404e834e'
+    resource_id: 'ohms-law'
+    digest: '3ff5779eda7910b97932df2cf479fd9a240837975363604556afb6e1b24945fd'
+language: 'es-MX'
+license: 'CC-BY-4.0'
+attribution: 'Academy A'
+review_status: 'not-required'
+state: 'ready'
+revision: 1
